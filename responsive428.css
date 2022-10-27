@@ -1,0 +1,44 @@
+@media only screen and (min-width: 425px) and (max-width: 479px){
+    .header-container-mobile .logo {
+        margin-right: 290px;
+    }
+
+    .header-container-mobile img {
+        padding-top: 30px;
+    }
+
+    .web3-mobile {
+        padding-top: 40px;
+        width: 400px;
+    }
+
+    .main-article h1 {
+        margin-left: 10px;
+        font-size: 40px;
+    }
+
+    .main-article p {
+        margin-left: 10px;
+        padding-right: 10px;
+    }
+
+    .main-article .button {
+        padding-right: 200px;
+    }
+
+    .new-article {
+        margin-left: 10px;
+    }
+
+    .number-article {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .numbered-article {
+        gap: 10px;
+    }
+    .numbered-image {
+        margin-left: auto;
+    }
+}   

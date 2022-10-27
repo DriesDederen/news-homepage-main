@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+:root {
+    --SoftOrange: hsl(35, 77%, 62%);
+    --SoftRed: hsl(5, 85%, 63%);
+    --OffWhite: hsl(36, 100%, 99%);
+    --GrayishBlue: hsl(233, 8%, 79%);
+    --DarkGrayishBlue: hsl(236, 13%, 42%);
+    --VeryDarkBlue: hsl(240, 100%, 5%);
+    --Inter: 'Inter', sans-serif;
+}
+
+html{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: var(--OffWhite);
+    font-size: 15px;
+    font-family: var(--Inter);
+}
+
+nav {
+    display: flex;
+    justify-content: end;
+    padding-right: 120px;
+    display: none;
+
+}
+nav ul {
+    /* display: none; */
+    list-style-type: none;
+    color: var(--VeryDarkBlue);
+    cursor: pointer;
+    font-size: 25px;
+}
+
+nav ul li {
+    padding-top: 20px;
+}
+
+.header-container-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 220px; */
+}
+
+.header-container-mobile img {
+    padding-top: 20px;
+}
+
+.header-container-mobile .close {
+    display: none;
+}
+
+.header-container-mobile .logo {
+    margin-right: 200px;
+}
+
+.web3-desktop {
+    display: none;
+}
+
+.main-article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.web3-mobile {
+    padding-top: 20px;
+    width: 340px;
+}
+
+.main-article h1 {
+    color: var(--VeryDarkBlue);
+    font-size: 40px;
+    padding-right: 70px;
+    margin-left: 12px;
+    font-weight: 800;
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+
+.main-article p {
+    margin-top: 20px;
+    color: var(--DarkGrayishBlue);
+    margin-left: 12px;
+    margin-top: 10px;
+    line-height: 30px;
+}
+
+.main-article .button {
+   padding-right: 145px;
+}
+
+.main-article .button button {
+    border: none;
+    background-color: var(--SoftRed);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 15px 40px;
+    color: var(--OffWhite);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.main-article .button button:hover{
+    background-color: var(--VeryDarkBlue) ;
+}
+
+.new-article {
+    background-color: var(--VeryDarkBlue);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 50px;
+    padding-left: 20px;
+    width: 330px;
+    margin-left: 5px;
+    border-radius: 5px;
+    padding-bottom: 15px;
+
+}
+
+.new-article h2 {
+    color: var(--SoftOrange);
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.new-article-box h3, p {
+    color: var(--OffWhite);
+}
+
+.new-article-box {
+    padding-right: 30px;
+}
+
+.new-article-box a {
+    text-decoration: none;
+}
+
+.new-article-box h3:hover {
+    color: var(--SoftOrange);
+}
+
+.line {
+    width: 300px;
+    border-top: solid 1px var(--GrayishBlue);
+    margin-top: 10px;
+}
+
+.new-article-box p {
+    color: var(--GrayishBlue);
+    line-height: 25px;
+    margin-top: -12px;
+}
+
+.new-article-box h3 {
+    font-weight: 600;
+    letter-spacing: 0.6px;
+}
+
+.number-article {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 40px;
+    margin-left: 8px;
+    padding-bottom: 40px;
+}
+
+.numbered-article {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.numbered-image {
+    width: 20%;
+}
+
+.numbered-image img {
+    width: 100px;
+    border-radius: 5px;
+}
+
+.numbered-text {
+    width: 70%;
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.numbered-text .number {
+    color: var(--GrayishBlue);
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.numbered-text h3 {
+    margin: 0;
+    color: var(--VeryDarkBlue);
+}
+
+.numbered-text a {
+    text-decoration: none;
+}
+
+.numbered-text h3:hover {
+    color: var(--SoftRed);
+}
+.numbered-text .numbered-text-p {
+    color: var(--DarkGrayishBlue);
+    margin: 0;
+    line-height: 20px;
+    padding-right: 20px;
+}
+

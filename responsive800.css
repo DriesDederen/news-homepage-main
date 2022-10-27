@@ -1,0 +1,48 @@
+@media only screen and (min-width: 770px){
+    .header-container-mobile .logo {
+        margin-right: 570px;
+    }
+
+    .header-container-mobile img {
+        padding-top: 40px;
+    }
+
+    .web3-mobile {
+        padding-top: 40px;
+        width: 700px;
+    }
+
+    .main-article h1 {
+        margin-left: 30px;
+        font-size: 55px;
+    }
+
+    .main-article p {
+        margin-left: 30px;
+        padding-right: 40px;
+    }
+
+    .main-article .button {
+        padding-right: 530px;
+    }
+
+    .new-article {
+        margin-left: 35px;
+    }
+
+    .number-article {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .numbered-text {
+        margin-left: -20px;
+    }
+
+    .numbered-article {
+        gap: 0px;
+    }
+    .numbered-image {
+        margin-left: 5px;
+    }
+}   
