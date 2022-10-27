@@ -1,5 +1,7 @@
 # News Homepage | Frontend Mentor Project
 
+Project link: https://dries-news-page.netlify.app/
+
 ## Screenshots
 
 ### Screenshot Desktop
